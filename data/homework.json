@@ -1,0 +1,26 @@
+[
+  {
+    "id": "hw1",
+    "title": "Introduce yourself",
+    "lesson": 1,
+    "due": "2026-11-12",
+    "instructions": "Write 3–5 sentences introducing yourself in Korean. Use 안녕하세요, your name (저는 ___예요/이에요), and 만나서 반갑습니다.",
+    "link": "https://forms.gle/REPLACE_WITH_YOUR_FORM"
+  },
+  {
+    "id": "hw2",
+    "title": "Number practice",
+    "lesson": 2,
+    "due": "2026-11-19",
+    "instructions": "Write the native Korean numbers 1–10 and the Sino-Korean numbers 1–10. Then record yourself reading both lists aloud.",
+    "link": "mailto:teacher@example.com?subject=Homework%202%20-%20Numbers"
+  },
+  {
+    "id": "hw3",
+    "title": "My favorite food",
+    "lesson": 3,
+    "due": "2026-11-26",
+    "instructions": "Using the Lesson 3 words, write 3 sentences about food you like. Example: 김치가 맛있어요.",
+    "link": "https://forms.gle/REPLACE_WITH_YOUR_FORM"
+  }
+]

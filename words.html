@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Words · Learn Korean</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main>
+    <div class="page-head">
+      <h1>Words <span class="ko muted" lang="ko">단어</span></h1>
+      <p>Pick a lesson, then browse, practice, or quiz yourself.</p>
+    </div>
+
+    <div id="voice-notice" class="notice hidden">
+      No Korean voice was found in this browser, so pronunciation may sound off. Try Chrome, Safari or Edge, or install a Korean voice in your system settings.
+    </div>
+
+    <div class="toolbar">
+      <select id="lesson-filter" aria-label="Lesson"></select>
+      <select id="topic-filter" aria-label="Topic"></select>
+    </div>
+
+    <div class="tabs" role="tablist">
+      <button role="tab" aria-selected="true" data-tab="list">List</button>
+      <button role="tab" aria-selected="false" data-tab="flash">Flashcards</button>
+      <button role="tab" aria-selected="false" data-tab="quiz">Quiz</button>
+    </div>
+
+    <!-- List -->
+    <section id="tab-list" role="tabpanel">
+      <div class="toolbar">
+        <input type="search" id="search" placeholder="Search Korean, romanization, or English…" aria-label="Search words">
+      </div>
+      <p class="count" id="count"></p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Korean</th><th>Romanization</th><th>English</th><th>Lesson</th><th><span class="hidden">Audio</span></th></tr></thead>
+          <tbody id="word-rows"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Flashcards -->
+    <section id="tab-flash" role="tabpanel" class="hidden">
+      <div class="flash-wrap">
+        <div class="toolbar" style="justify-content:center">
+          <label><input type="checkbox" id="learning-only"> Only "still learning"</label>
+          <label><input type="checkbox" id="english-first"> Show English first</label>
+        </div>
+        <div id="flash-area"></div>
+      </div>
+    </section>
+
+    <!-- Quiz -->
+    <section id="tab-quiz" role="tabpanel" class="hidden">
+      <div class="quiz" id="quiz-area"></div>
+    </section>
+  </main>
+  <script src="js/common.js"></script>
+  <script src="js/words.js"></script>
+</body>
+</html>

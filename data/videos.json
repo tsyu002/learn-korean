@@ -1,0 +1,23 @@
+[
+  {
+    "id": "v1",
+    "title": "Learn Hangul: the Korean alphabet",
+    "youtubeId": "",
+    "lesson": 1,
+    "description": "Paste a YouTube video ID into data/videos.json to show it here."
+  },
+  {
+    "id": "v2",
+    "title": "Native vs. Sino-Korean numbers",
+    "youtubeId": "",
+    "lesson": 2,
+    "description": "When to use 하나, 둘, 셋 vs. 일, 이, 삼."
+  },
+  {
+    "id": "v3",
+    "title": "Ordering food in Korean",
+    "youtubeId": "",
+    "lesson": 3,
+    "description": "Useful restaurant phrases like ___ 주세요."
+  }
+]

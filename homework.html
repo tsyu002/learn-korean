@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Homework · Learn Korean</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main>
+    <div class="page-head">
+      <h1>Homework <span class="ko muted" lang="ko">숙제</span></h1>
+      <p>Click "Submit" to turn in your work. Tick "Done" to keep track. That only saves on this device.</p>
+    </div>
+    <div class="toolbar">
+      <select id="lesson-filter" aria-label="Lesson"></select>
+      <label><input type="checkbox" id="hide-done"> Hide finished</label>
+    </div>
+    <div class="grid" id="hw-list"></div>
+  </main>
+  <script src="js/common.js"></script>
+  <script src="js/homework.js"></script>
+</body>
+</html>
